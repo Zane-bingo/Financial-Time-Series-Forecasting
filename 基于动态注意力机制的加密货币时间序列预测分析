@@ -35,8 +35,8 @@ import datetime
 from requests.auth import HTTPBasicAuth
 
 # Reddit API 配置信息
-REDDIT_CLIENT_ID = "9DU_ymjT_rLiaLSG62uG2Q"
-REDDIT_CLIENT_SECRET = "tZWjN2mq-a-2YtO6-AR3FIPcI7MEhQ"
+REDDIT_CLIENT_ID = "xxxxxxxx"
+REDDIT_CLIENT_SECRET = "xxxxxxxx"
 REDDIT_USER_AGENT = "multimodel-blockchain-analysis/0.1 by /u/Worried_Caregiver488"
 
 # 获取访问令牌
@@ -142,7 +142,7 @@ def get_cryptocompare_data(fsym, tsym, limit):
         'fsym': fsym,  # 加密货币符号
         'tsym': tsym,  # 目标货币符号
         'limit': limit,  # 要请求的数据天数
-        'api_key': '4c288dcdc61dd9e38e99180f6baf717f72fc9140fdf0592bb03ba7d8c6e523de'  # API密钥
+        'api_key': 'xxxxxxxx'  # API密钥
     }
 
     # 发送GET请求到CryptoCompare API
